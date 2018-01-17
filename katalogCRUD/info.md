@@ -1,0 +1,1 @@
+uradite refactoring i prebacivanje u ES6, dodajte metode koje rade sa žanrom i profilima, i na kraju pokušajte da odvojeno napravite da metode koje oni koriste budu deljene npr: deleteGenre i deleteProfile da dele deo koda (npr. koriste isti metod kojim to brišu iz localeStorage

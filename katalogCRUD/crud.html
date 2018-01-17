@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>crud</title>
+    <style>
+        form{
+            max-width: 500px;
+        }
+        form div{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="forma">
+        <fieldset>
+            <legend>Add new actor</legend>
+            <div>
+               <label for="id">ID
+                   <div>
+                       <input type="text" id="id">
+                   </div>
+               </label>
+
+               <div>
+                   <label for="name">Name
+                       <div>
+                           <input type="text" id="name">
+                       </div>
+                   </label>
+               </div>
+               <div>
+                   <label for="lastname">LastName
+                       <div>
+                            <input type="text" id="lastname">
+                       </div>
+                      
+                   </label>
+               </div>
+               <div>
+                   <label for="bio">Biography
+                       <div>
+                            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+                       </div>
+                      
+                   </label>
+               </div>
+               <div>
+                   <label for="date">Date
+                       <div>
+                            <input type="date" id="date">
+                       </div>
+                   </label>
+               </div>
+               <div>
+                   <input type="submit">
+               </div>
+            </div>
+            
+        </fieldset>
+    </form>
+
+    <form id="profile">
+        <fieldset>
+            <legend>Add profile</legend>
+            <div>
+                <label for="id-email">ID
+                    <div>
+                        <input type="email" id="id-email">
+                    </div>
+                </label>
+            </div>
+            <div>
+                <label for="nickname">Nickname
+                    <div>
+                        <input type="text" id="nickname">
+                    </div>
+                </label>
+            </div>
+            <div>
+                <label for="password">Password
+                    <div>
+                        <input type="password" id="password">
+                    </div>
+                </label>
+            </div>
+            <div>
+                <label for="email">Email
+                    <div>
+                        <input type="email" id="email">
+                    </div>
+                </label>
+            </div>
+            <div>
+                <label for="firstname-profile">Firstname
+                    <div>
+                        <input type="text" id="firstname-profile">
+                    </div>
+                </label>
+            </div>
+            <div>
+                <label for="lastname-profile">Lastname
+                    <div>
+                        <input type="text" id="lastname-profile">
+                    </div>
+                </label>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+<script src="crud.js"></script>
+</html>
